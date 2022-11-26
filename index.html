@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./src/math.js" defer></script>
+    <title>Document</title>
+    <style>
+        form * {
+            margin: 4px 0;
+        }
+        input {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <p>I'm tired of having to do math manually every time I have to water</p>
+    <form>
+        <label for="fertiliser-ratio">Fertiliser ratio on label (ml)</label>
+        <input id="fertiliser-ratio" name="fertiliser-ratio" type="number" />
+        <label for="water-ratio">Water ratio on label (ml)</label>
+        <input id="water-ratio" name="water-ratio" type="number" value="9000" />
+        <label for="my-water">Amount of water I have (ml)</label>
+        <input id="my-water" name="my-water" type="number" value="1500" />
+        <input type="submit" />
+        <p class="result"></p>
+    </form>
+</body>
+</html>
