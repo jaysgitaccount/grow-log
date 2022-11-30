@@ -1,5 +1,3 @@
-const fertiliser = document.querySelector('#fertiliser-ratio');
-const water = document.querySelector('#water-ratio');
 const form = document.querySelector('form');
 
 form.addEventListener('submit', (e) => {
